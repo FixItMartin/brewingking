@@ -6,6 +6,28 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
  </head>
  <body>
-  <p>브류킹 입니다 .</p>
+	<script>
+		function cal() {
+			// 선언 
+			//ID 값으로 value 값 가져오기
+			var TL1 = document.getElementById("TL_input1");
+			var TL1_value = TL1.value
+			alert(TL1_value);
+		}
+	</script>
+  <h4>브류킹 입니다 .</h4>
+  <strong>높이와 L 구하기</strong><br/>
+  <span>L->높이</span><br/>
+  <span>1T</span><input type="text" name="1TL_input" id="TL_input1" value="1" /><button style="color:blue; border:none;" onclick="cal();"> 계산하기 </button><span>결과: </span><input type="text" name="1TL_answer" id="1TL_answer" style="border:none; background-color:#ddd; background-color:#ddd" /><br/>
+  <span>65G</span><input type="text" name="65GL_input" id="65GL_input" /><button style="color:blue; border:none;" onclick="cal();"> 계산하기 </button><span>결과: </span><input type="text" name="65GL_answer" id="65GL_answer" style="border:none; background-color:#ddd" /><br/>
+  <span>30G</span><input type="text" name="30GL_input" id="30GL_input" /><button style="color:blue; border:none;" onclick="cal();"> 계산하기 </button><span>결과: </span><input type="text" name="30GL_answer" id="30GL_answer" style="border:none; background-color:#ddd" /><br/>
+  <span>15G</span><input type="text" name="15GL_input" id="15GL_input" /><button style="color:blue; border:none;" onclick="cal();"> 계산하기 </button><span>결과: </span><input type="text" name="15GL_answer" id="15GL_answer" style="border:none; background-color:#ddd" /><br/>
+  <span>10G</span><input type="text" name="10GL_input" id="10GL_input" /><button style="color:blue; border:none;" onclick="cal();"> 계산하기 </button><span>결과: </span><input type="text" name="10GL_answer" id="10GL_answer" style="border:none; background-color:#ddd" /><br/>
+  <span>높이->L</span><br/>
+  <span>1T</span><input type="text" name="1T_input" id="1T_input" /><button style="color:blue; border:none;" onclick="cal();"> 계산하기 </button><span>결과: </span><input type="text" name="1T_answer" id="1T_answer" style="border:none; background-color:#ddd" /><br/>
+  <span>65G</span><input type="text" name="65GL_input" id="65GL_input" /><button style="color:blue; border:none;" onclick="cal();"> 계산하기 </button><span>결과: </span><input type="text" name="65GL_answer" id="65GL_answer" style="border:none; background-color:#ddd" /><br/>
+  <span>30G</span><input type="text" name="30G_input" id="30G_input" /><button style="color:blue; border:none;" onclick="cal();"> 계산하기 </button><span>결과: </span><input type="text" name="30G_answer" id="30G_answer" style="border:none; background-color:#ddd" /><br/>
+  <span>15G</span><input type="text" name="15G_input" id="15G_input" /><button style="color:blue; border:none;" onclick="cal();"> 계산하기 </button><span>결과: </span><input type="text" name="15G_answer" id="15G_answer" style="border:none; background-color:#ddd" /><br/>
+  <span>10G</span><input type="text" name="10G_input" id="10G_input" /><button style="color:blue; border:none;" onclick="cal();"> 계산하기 </button><span>결과: </span><input type="text" name="10G_answer" id="10G_answer" style="border:none; background-color:#ddd" /><br/>
  </body>
 </html>
